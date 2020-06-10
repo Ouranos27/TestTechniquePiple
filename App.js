@@ -29,7 +29,7 @@ export default class App extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>This is a cube. Drag it arround!</Text>x
+                <Text style={styles.text}>This is a cube. Drag it arround!</Text>
                 <Animated.View
                     style={{
                         transform: [{ translateX: this.pan.x }, { translateY: this.pan.y }]
